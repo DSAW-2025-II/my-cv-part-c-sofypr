@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libertinus Serif", serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: white;
+  min-height: 100vh;
+  text-align: justify;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  text-align: left;
+}
+
+.cv-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  background-color: white;
+  overflow: visible;
+  align-items: stretch; 
+}
+
+#content {
+  flex: 3;
+  background-color: white;
+  margin: 0;
+  border-radius: 8px;
+}
+
+.left-rectangle {
+  flex: 1;
+  background-color: #ffe0dde5;
+  border-radius: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100%;
+}
+
+.skills-hobbies {
+  display: flex;
+  gap: 40px;
+}
+
+.skills, .hobbies {
+  flex: 1;
+}
+
+.right-rectangle {
+  flex: 2;
+  padding: 20px;
+  margin: 0;
+  min-height: 100%;
+  background-color: white;
+  border-radius: 0;
+}
+
+.circular-img {
+  display: block;
+  margin: 0 auto;         
+  border-radius: 50%;     
+  width: 200px;
+  height: 200px;
+  object-fit: cover; 
+}
+
+.big-data {
+  font-size: 20px;
+}
+
+h1 {
+  color: #333;
+  font-family: "Lobster", cursive;
+  font-weight: 800;
+}
+
+h2, h3 {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+}
+
+.left-rectangle h2 {
+  margin-top: 50px; 
+}
+
+
+@media (max-width: 1024px) {
+  .cv-container {
+    flex-direction: column;
+  }
+
+  .left-rectangle {
+    flex: none;
+    width: 100%;
+    min-height: auto;
+  }
+
+  .right-rectangle {
+    flex: none;
+    width: 100%;
+    min-height: auto;
+  }
+
+  #content {
+    flex: none;
+    width: 100%;
+    min-height: auto;
+  }
+
+  .skills-hobbies {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .circular-img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .big-data {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  h2, h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .circular-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .left-rectangle {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .right-rectangle {
+    width: 100%;
+    min-height: auto;
+  }
+
+  #content {
+    width: 100%;
+    min-height: auto;
+  }
+  .cv-container {
+    flex-direction: column;
+  }
+}
