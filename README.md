@@ -2,7 +2,10 @@
 # Bienvenidos a la Tarea de HTML y CSS
 
 ¡Hola a todos!
-
+Nombre: sofy Alejandra Prada Murillo
+Id: 0000336152
+Usuario: sofypr
+Link:  https://dsaw-2025-ii.github.io/my-cv-part-c-sofypr/
 En esta tarea, vamos a crear nuestra propia hoja de vida (CV) utilizando HTML y CSS. Este ejercicio está dividido en dos partes para que puedan enfocarse primero en la estructura y luego en el diseño.
 
 ## Parte 1: HTML
